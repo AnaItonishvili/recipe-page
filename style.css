@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.recipe-wrapper {
+    background-color: white;
+    padding: 40px;
+    width: 725px;
+    margin: 75px auto;
+    border-radius: 16px;
+
+}
+
+.recipe-wrapper img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 28px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: hsl(24, 5%, 18%);
+}
+
+.preparation-wrapper {
+    padding: 25px;
+
+
+}
+
+.preparation-wrapper h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.preparation-wrapper li {
+    padding-left: 40px;
+    margin-bottom: 16px;
+    color: hsl(30, 10%, 34%);
+    position: relative;
+}
+
+b {
+    font-weight: bold;
+}
+
+.preparation-wrapper li::before{
+    content: "•";
+    position: absolute;
+    left: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients-wrapper h3{
+    color: hsl(14, 45%, 36%);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ingredients-wrapper li{
+    padding-left: 30px;
+    margin-bottom: 16px;
+    color: hsl(30, 10%, 34%);
+    position: relative;
+}
+
+.ingredients-wrapper li::before{
+    content: "•";
+    position: absolute;
+    left: 5px;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions-wrapper h3{
+    color: hsl(14, 45%, 36%);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.instructions-wrapper li {
+    padding-left: 12px;
+    margin-bottom: 16px;
+    color: hsl(30, 10%, 34%);
+    position: relative;
+}
+
+.instructions-wrapper ol {
+    list-style: decimal;
+    padding-left: 16px;
+}
+
+/* .instructions-wrapper li::before{
+    content: "•";
+    position: absolute;
+    left: 5px;
+    color: hsl(14, 45%, 36%);
+} */
+
+hr {
+    opacity: .3;
+    margin: 30px 0;
+}
